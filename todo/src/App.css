@@ -3,10 +3,19 @@
 }
 
 .input {
-  border: 1px solid white;
-  border-bottom: 1px solid black;
+  border: 1px solid #60B4C2;
+  border-bottom: 1px solid white;
   margin-right: 20px;
   height: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  background-color: #60B4C2;
+}
+
+::placeholder {
+  color: white;
+  font-family: 'Baloo Bhai', cursive;
 }
 
 .add {
@@ -15,6 +24,7 @@
   margin-right: 20px;
   background-color: #62D05D;
   color: white;
+  font-family: 'Baloo Bhai', cursive;
 }
 
 .remove {
@@ -23,4 +33,26 @@
   margin-right: 20px;
   background-color: #EE0606;
   color: white;
+  width: 62px;
+  font-family: 'Baloo Bhai', cursive;
+}
+
+.form {
+  border: 1px solid black;
+  margin-top: 200px;
+  width: 400px;
+  height: 300px;
+  margin-left: 512px;
+  border-radius: 5px;
+  background-color: #436C90;
+  color: white;
+  font-family: 'Baloo Bhai', cursive;
+}
+
+.add-section {
+  border: 1px solid black;
+  width: 400px;
+  margin-left: 512px;
+  border-radius: 5px;
+  background-color: #60B4C2;
 }

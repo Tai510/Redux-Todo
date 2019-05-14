@@ -1,11 +1,15 @@
-export const ADD_TODOLIST = 'ADD_TODO';
+export const ADDTODOLIST = 'ADDTODOLIST';
 
 
 
 
 
-export const addTodoList = () => {
+export function addTodoList(text) {
+    let newTodo = {
+    name: text,
+    completed: false
+    }
     return {
-        type: ADD_TODOLIST,
+        type: ADDTODOLIST, payload: newTodo
     }
 };
